@@ -289,7 +289,8 @@ class Plugin_Command extends \WP_CLI\CommandWithUpgrade {
 	 * [--all]
 	 * : If set, all plugins will be activated.
 	 *
-	 * [--exclude=<name>]
+	 * 
+	 =<name>]
 	 * : Comma separated list of plugin slugs to be excluded from activation.
 	 *
 	 * [--network]
@@ -379,7 +380,7 @@ class Plugin_Command extends \WP_CLI\CommandWithUpgrade {
 	 * [--all]
 	 * : If set, all plugins will be deactivated.
 	 *
-	 *  [--exclude=<name>]
+	 * [--exclude=<name>]
 	 * : Comma separated list of plugin slugs that should be excluded from deactivation.
 	 *
 	 * [--network]
